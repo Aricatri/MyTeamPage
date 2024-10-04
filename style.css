@@ -60,3 +60,65 @@ header .text1{
   top: 100%;
 }
 
+@media only screen and (max-width: 375px) {
+  header {
+    display: block;
+    text-align: center;
+    margin: 0px;
+  }
+  header .title{
+    font-size: 18px;
+    margin: 50px 0px;
+  }
+  header .text1{
+    font-size: 14px;
+    text-align: left;
+    margin:10px 30px;
+  }
+  .box1 , .box2, .box3, .box4, .box5, .box6{
+    display: flex;
+  }
+  .box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img{
+    width: 100px;
+  }
+  .cajas{
+    display: block;
+  }
+  .work{
+    padding: 5px 2px;
+    writing-mode: vertical-lr;
+  }
+  .box1 {
+    margin-top: 30px;
+    position: relative;
+    left: 15%;
+  }
+  .box2{
+    position:absolute;
+    left: 55%;
+    top: 46%;
+  }
+  .box3{
+    position: relative;
+    left: 15%;
+    margin-top: 60px;
+  }
+  .box4{
+    position: absolute;
+    left: 55%;
+    top: 82%;
+  }
+
+  .box5{
+    position: relative;
+    left: 15%;
+    margin-top: 60px;
+  }
+  .box6{
+    position: absolute;
+    left: 55%;
+    top: 117%;
+  }
+
+
+}
