@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](Desktop.png)
-![](Movile.png)
+![](Desktop.PNG)
+![](Movile.PNG)
 
 
 ## My process
